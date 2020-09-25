@@ -1,0 +1,75 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #606c71;
+    line-height: 1.5;
+}
+pre{
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #606c71;
+}
+code
+{
+    padding: .2em .4em;
+    margin:0;
+    font-size:85%;
+    background-color: rgba(27,31,35,.05);
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #24292e;
+}
+
+nav ul, footer ul {
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    color : #2f2fa2;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+.social-media-list a:hover .username {
+    text-decoration: underline
+}
+.social-media-list li+li {
+    padding-top: 5px
+}
+
+social-media-list {
+    list-style: none;
+    margin-left: 0
+}
+.social-media-list a:hover {
+    text-decoration: none
+}
+
+p {
+    line-height: 1.4em;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}

@@ -1,0 +1,13 @@
+.blog
+{
+  border-radius:8px;
+  border: 1px solid #ddd;
+  color: #666;
+  padding: 0.5em;
+  margin-top: 15px;
+  }
+strong
+{
+  color: #666;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
