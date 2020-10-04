@@ -26,7 +26,7 @@ There is a pseudo flag on our main page which is taken from `/flag?var=flag`.
 ![flagoutput](/assets/posts/Confidence-yac/images/p3.PNG)
 
 
-`/flag?var=flag` is returns a valid javascript line so we shouldn't use XHR (we also can't use XHR because of the CSP).
+`/flag?var=flag` returns a valid javascript line so we shouldn't use XHR (we also can't use XHR because of the CSP).
 We can just use the `/flag?var=flag` as a script source and access the flag through `window.flag`.
 The technique uses in `/flag` is simillar to JSONP, you can read about it here: [jsonp](https://www.w3schools.com/js/js_json_jsonp.asp).
 
