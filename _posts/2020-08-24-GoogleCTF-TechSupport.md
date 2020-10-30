@@ -47,7 +47,7 @@ Let's look on the flag page:
 
 Only the `chat` user can access the flag, we should find how to causing the chat user to access some vulnerable page which will fetch the flag page and send its content to our domain.
 In order to do so, I sould find a way to communicate the chat user.
-The is a chat page in the website.
+There is a chat page in the website.
 
 #### Chat page:
 
